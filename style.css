@@ -1,0 +1,137 @@
+.Page{
+    color: white;
+}
+
+.linkfont{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.middle{
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+.middle-height{
+    height:100%;
+    margin-top:auto}
+
+.height-limit{
+    max-height:92px;
+    position:relative
+}
+
+.PageStyle{
+    display:flex;
+    flex-direction:column;
+    height:100%
+}
+.flex{
+    flex-shrink:0;
+    box-sizing:border-box
+}
+.navigation_height{
+    height:60px
+}
+
+.navigation_display{
+    display:flex;
+    align-items:center;
+    padding:6px
+}
+.nav_box{
+    display:inline-block;
+    flex-grow:1
+}
+.right_menu{
+    float: right;
+}
+
+.font_color{
+    color: var(--gm3-sys-color-on-surface,#1f1f1f);
+}
+.search_height{
+    max-height: 160px;
+}
+.search_box{
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    position: relative;
+}
+.search_bar{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.search_display{
+    flex: 1;
+    display: flex;
+    padding: 0 8px 0 0;
+}
+
+.search_icon{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 46px;
+}
+
+.icon_placement{
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+
+.icon_display{
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+}
+.type_bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.background_bar{
+    color: transparent;
+    white-space: pre;
+    position: absolute;
+    pointer-events: none;
+}
+.search_text_font{
+    resize: none;
+    background-color: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+}
